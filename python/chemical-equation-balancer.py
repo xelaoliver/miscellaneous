@@ -1,6 +1,8 @@
 # Alex Oliver 2025
 # This code is in development and it will be able to balance unbalanced chemical equations to help me with my chemistry work and possibly kickstart a chemical reacting simulator. As of 23/09, this program only barely 'factorises' and makes sense of the inputed equation to seperate the compounds, reactants and products, along with subscripts. Brackets and subscripts will be added shortly but this code is rather unoptimised and full of bugs.
 
+# Just realised by googling that this entire program could have been optimised using the split() function... Next time!
+
 equation = "Cu+HNO^3->Cu(NO^3)^2+H^2O+NO^2"
 products = {}
 reactants = {}
@@ -48,3 +50,4 @@ for i in range(len(equation)):
 print("unblalanced:", equation)
 print("reactants:", reactants)
 print("products:", products)
+
